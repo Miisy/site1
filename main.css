@@ -1,20 +1,36 @@
+header,
+section h2 {
+    font-family: "Bungee", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+header h1,
+section h2
+{
+    font-weight: normal;
+}
 header
 {
     padding: 16px 0;
-    background-color: violet;
+    background-color: rgb(117, 42, 117);
     color: rgb(44, 3, 20);
 }
 header nav li {
     
     display: inline;    
     margin-left: 16px;
-    font-size: 24px;
+    font-size: 18px;
 }
 header nav li a
 {
@@ -26,9 +42,35 @@ header nav li a
     width: 100%;
     margin: 0 auto;
 }
-header .container
+header .container,
+section .container
 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.brands img{
+    height: 24px;
+}
+.brands li{
+    display: inline;
+    margin-right: 8px;
+}
+section .container{
+    align-items: flex-start;
+}
+section{
+    padding: 24px 0;
+}
+section h2{
+    margin-bottom: 16px;
+}
+section{
+    color:  rgb(117, 42, 117);
+}
+section p{
+    margin-bottom: 8px;
+}
+.store {
+    padding: 16px;
 }
